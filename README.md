@@ -309,4 +309,4 @@ NO OF THREADS:256
 <img width="1322" height="285" alt="626907912-78e4ca70-2e7a-474e-9580-c169a5c24e67" src="https://github.com/user-attachments/assets/58b4cb0d-1ebc-47f3-bcc2-5f2f178edba8" />
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, the implementation of sum of arrays on both Host (CPU) and Device (GPU) using NVCC CUDA with randomly generated numbers was successfully executed. The results produced by the GPU matched with the CPU results successfully.Among the four executions, the configuration using 512 threads per block and 32768 blocks provided the best optimized time efficiency, as it achieved the minimum execution time compared to the other configurations.
